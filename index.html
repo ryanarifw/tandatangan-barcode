@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QR Tanda Tangan</title>
+</head>
+<body>
+  <h1>Form Tanda Tangan</h1>
+  <canvas id="signature" width="300" height="150" style="border:1px solid black;"></canvas><br><br>
+  <input type="file" id="fileUpload"><br><br>
+  <button onclick="generateQR()">Generate Barcode</button><br><br>
+  <div id="qrcode"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
